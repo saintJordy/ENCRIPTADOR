@@ -9,7 +9,7 @@ function validarTexto(){
     let validador = textoEscrito.match(/^[a-z]*$/);
 
     if(!validador || validador === 0) {
-        alert("Solo son permitidas letras minúsculas y sin acentos")
+        alert("Sjordy te dice: Solo son permitidas letras minúsculas y sin acentos")
         location.reload();
         return true;
     }
@@ -78,7 +78,7 @@ function copiar(){
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value)
     mensaje.value = "";
-    alert("Texto Copiado")
+    alert("Sjordy te dice: Texto fue Copiado")
 }
 
 
